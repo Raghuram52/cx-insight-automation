@@ -1,0 +1,26 @@
+name: ci
+
+# Runs on every push. Everything here uses the heuristic classifier, so CI needs no
+# API key and costs nothing: the tests exercise the parse/validate/retry logic with a
+# fake client, and the eval gate checks the baseline hasn't regressed below the floor.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: pytest -q
+      - name: Evaluation gate (baseline accuracy floor)
+        run: python -m cx_insight.evaluate --classifier heuristic

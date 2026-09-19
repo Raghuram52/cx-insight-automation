@@ -1,0 +1,15 @@
+# warehouse + generated report (rebuilt from CSV; never commit)
+*.duckdb
+*.duckdb.wal
+output/
+eval/eval_report.md
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/

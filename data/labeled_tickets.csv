@@ -1,0 +1,50 @@
+ticket_id,gold_category,gold_priority,gold_sentiment
+T001,Access & Authentication,Critical,Urgent
+T002,Billing & Payments,High,Negative
+T003,Data & Reporting,High,Negative
+T004,User Management,Medium,Neutral
+T005,Integration & API,High,Negative
+T006,Positive Feedback,Low,Positive
+T007,Performance & Stability,High,Negative
+T008,Data & Reporting,Medium,Negative
+T010,Access & Authentication,High,Negative
+T011,Security & Compliance,High,Negative
+T012,Performance & Stability,Medium,Negative
+T013,Positive Feedback,Low,Positive
+T014,Integration & API,Medium,Negative
+T015,User Management,Medium,Negative
+T016,Positive Feedback,Low,Positive
+T017,Data & Reporting,Medium,Negative
+T018,Feature Request,Low,Neutral
+T019,Data & Reporting,High,Urgent
+T020,Product Education,Low,Neutral
+T021,Access & Authentication,High,Negative
+T022,Billing & Payments,High,Negative
+T023,Integration & API,Medium,Negative
+T024,Positive Feedback,Low,Positive
+T025,Security & Compliance,Critical,Urgent
+T026,Feature Request,Low,Neutral
+T027,Access & Authentication,High,Urgent
+T028,Product Education,Low,Neutral
+T029,Billing & Payments,High,Negative
+T030,Performance & Stability,Medium,Negative
+T031,User Management,High,Negative
+T032,Security & Compliance,High,Urgent
+T033,Integration & API,High,Negative
+T034,Positive Feedback,Low,Positive
+T035,Feature Request,Low,Neutral
+T036,Product Education,Low,Neutral
+T037,Billing & Payments,Medium,Negative
+T038,Performance & Stability,Medium,Negative
+T039,User Management,High,Urgent
+T040,Security & Compliance,Low,Neutral
+T041,Access & Authentication,Critical,Urgent
+T042,Feature Request,Low,Neutral
+T043,Integration & API,High,Negative
+T044,Product Education,Low,Neutral
+T045,Data & Reporting,High,Negative
+T046,Positive Feedback,Low,Positive
+T047,User Management,High,Negative
+T048,Feature Request,Low,Neutral
+T049,Security & Compliance,High,Negative
+T050,Performance & Stability,Medium,Negative
