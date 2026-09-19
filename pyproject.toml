@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# put the repo root on sys.path so `import cx_insight` works under a bare `pytest`
+# invocation (not just `python -m pytest`).
+pythonpath = ["."]
+testpaths = ["tests"]
